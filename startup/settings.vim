@@ -7,6 +7,7 @@ set splitbelow
 set splitright
 
 " View
+set scrolloff=3
 set showcmd
 set display=lastline " :help 'display'
 set laststatus=2

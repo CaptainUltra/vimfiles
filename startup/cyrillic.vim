@@ -6,3 +6,7 @@ set langmap=
 
 map Т J
 map Н K
+
+" For some reason moving on visual lines doesn't work without this
+map т j
+map н k

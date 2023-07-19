@@ -21,6 +21,8 @@ set showbreak=+
 set cursorlineopt=number,screenline
 set signcolumn=number
 set t_Co=256
+set incsearch
+set hlsearch
 
 " Indentation
 set backspace=indent,eol,start

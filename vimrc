@@ -2,6 +2,9 @@ set nocompatible
 
 scriptversion 4
 
+call pathogen#infect()
+call pathogen#helptags()
+
 filetype plugin on
 filetype indent on
 syntax on

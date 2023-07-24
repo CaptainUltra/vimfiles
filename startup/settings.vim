@@ -24,6 +24,9 @@ set t_Co=256
 set incsearch
 set hlsearch
 
+" Status line
+set statusline=%<%f\ %y%m%r%=%-14.(%l,%c%V%)\ %P
+
 " Indentation
 set backspace=indent,eol,start
 set autoindent

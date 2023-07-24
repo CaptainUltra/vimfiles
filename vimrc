@@ -12,3 +12,4 @@ syntax on
 runtime startup/mappings.vim
 runtime startup/settings.vim
 runtime startup/cyrillic.vim
+runtime startup/autocommands.vim

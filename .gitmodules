@@ -1,3 +1,9 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe
+[submodule "bundle/exifVim"]
+	path = bundle/exifVim
+	url = https://github.com/haydushki-fmi/exifVim.git

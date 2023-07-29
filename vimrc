@@ -9,6 +9,8 @@ filetype plugin on
 filetype indent on
 syntax on
 
+colorscheme PaperColor
+
 runtime startup/mappings.vim
 runtime startup/settings.vim
 runtime startup/cyrillic.vim

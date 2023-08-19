@@ -7,3 +7,6 @@
 [submodule "bundle/exifVim"]
 	path = bundle/exifVim
 	url = https://github.com/haydushki-fmi/exifVim.git
+[submodule "bundle/NERDtree"]
+	path = bundle/NERDtree
+	url = https://github.com/preservim/nerdtree.git

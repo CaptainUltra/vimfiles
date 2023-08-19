@@ -15,3 +15,4 @@ runtime startup/mappings.vim
 runtime startup/settings.vim
 runtime startup/cyrillic.vim
 runtime startup/autocommands.vim
+runtime startup/plugins.vim

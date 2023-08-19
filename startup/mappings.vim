@@ -34,3 +34,7 @@ xnoremap <silent> J 5gj
 xnoremap <silent> K 5gk
 
 nnoremap ! <Esc>:w<CR>:source %<cr>
+
+" NERD tree:
+nnoremap gn :NERDTreeToggle<cr>
+nnoremap gN :NERDTree<cr>

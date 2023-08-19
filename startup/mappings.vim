@@ -3,9 +3,8 @@
 nnoremap zj mayyp`aj
 nnoremap zk mayyP`ak
 
-" Pasting with Ctrl-P in insert and commandline mode.
-" Uses unnamed resgister to paste in cmdline mode.
-inoremap <c-p> <esc>pa
+" Pasting with Ctrl-P in commandline mode.
+" Uses unnamed resgister.
 cnoremap <c-p> <c-r>"
 
 " Select the whole row without whitespace

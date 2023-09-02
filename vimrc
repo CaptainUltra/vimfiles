@@ -16,3 +16,4 @@ runtime startup/settings.vim
 runtime startup/cyrillic.vim
 runtime startup/autocommands.vim
 runtime startup/plugins.vim
+runtime startup/commands.vim

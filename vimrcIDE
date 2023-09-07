@@ -1,0 +1,33 @@
+" This file is a copy of vimrc and is meant to be used by vim-emulating IDEs.
+
+set nocompatible
+
+scriptversion 4
+
+filetype plugin on
+filetype indent on
+syntax on
+
+source ~/.vim/startup/mappings.vim
+source ~/.vim/startup/settings.vim
+source ~/.vim/startup/cyrillic.vim
+source ~/.vim/startup/autocommands.vim
+source ~/.vim/startup/plugins.vim
+source ~/.vim/startup/commands.vim
+
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+
+set clipboard^=ideaput
+
+" TODO:
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+"" Map \r to the Reformat Code action
+"map \r <Action>(ReformatCode)
+
+"" Map <leader>d to start debug
+"map <leader>d <Action>(Debug)
+
+"" Map \b to toggle the breakpoint on the current line
+"map \b <Action>(ToggleLineBreakpoint)

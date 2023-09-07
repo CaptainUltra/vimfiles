@@ -37,3 +37,7 @@ nnoremap ! <Esc>:w<CR>:source %<cr>
 " NERD tree:
 nnoremap gn :NERDTreeToggle<cr>
 nnoremap gN :NERDTree<cr>
+
+" YouCompleteMe
+nnoremap <leader>ga :YcmCompleter GoToAlternateFile<CR>
+nnoremap <leader>gde :YcmCompleter GoToDeclaration<CR>

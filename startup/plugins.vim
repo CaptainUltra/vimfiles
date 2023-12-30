@@ -8,3 +8,14 @@ let g:netrw_winsize = 20
 " NERDTree:
 let g:NERDTreeMapJumpFirstChild = '-'
 let g:NERDTreeMapJumpLastChild  = '-'
+
+" YouCompleteMe
+let g:ycm_language_server =
+  \ [
+  \   {
+  \     'name': 'haskell-language-server',
+  \     'cmdline': [ 'haskell-language-server-wrapper', '--lsp' ],
+  \     'filetypes': [ 'haskell', 'lhaskell' ],
+  \     'project_root_files': [ 'stack.yaml', 'cabal.project', 'package.yaml', 'hie.yaml' ],
+  \   },
+  \ ]

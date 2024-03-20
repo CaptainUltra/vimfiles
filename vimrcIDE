@@ -18,16 +18,18 @@ source ~/.vim/startup/commands.vim
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'preservim/nerdtree'
+Plug 'vim-scripts/ReplaceWithRegister'
 
 set clipboard^=ideaput
+set ideajoin
 
-" TODO:
-"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
-"" Map \r to the Reformat Code action
-"map \r <Action>(ReformatCode)
+" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+" Map \r to the Reformat Code action
+map \r <Action>(ReformatCode)
 
-"" Map <leader>d to start debug
-"map <leader>d <Action>(Debug)
+" Map <leader>d to start debug
+map <leader>d <Action>(Debug)
 
-"" Map \b to toggle the breakpoint on the current line
-"map \b <Action>(ToggleLineBreakpoint)
+" Map \b to toggle the breakpoint on the current line
+map \b <Action>(ToggleLineBreakpoint)

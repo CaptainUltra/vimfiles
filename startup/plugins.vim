@@ -19,3 +19,9 @@ let g:ycm_language_server =
   \     'project_root_files': [ 'stack.yaml', 'cabal.project', 'package.yaml', 'hie.yaml' ],
   \   },
   \ ]
+
+" Markdown Preview:
+function! OpenMarkdownPreview(url)
+  execute "silent !firefox --new-window " . a:url
+endfunction
+let g:mkdp_browserfunc = 'OpenMarkdownPreview'

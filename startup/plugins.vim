@@ -25,3 +25,8 @@ function! OpenMarkdownPreview(url)
   execute "silent !firefox --new-window " . a:url
 endfunction
 let g:mkdp_browserfunc = 'OpenMarkdownPreview'
+
+" Ultisnips:
+let g:UltiSnipsExpandTrigger       = '<CR>'    " use Tab to expand snippets
+let g:UltiSnipsJumpForwardTrigger  = '<Tab>'    " use Tab to move forward through tabstops
+let g:UltiSnipsJumpBackwardTrigger = '<S-Tab>'  " use Shift-Tab to move backward through tabstops

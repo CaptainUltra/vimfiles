@@ -9,6 +9,8 @@ filetype plugin on
 filetype indent on
 syntax on
 
+set encoding=utf-8
+
 colorscheme PaperColor
 
 runtime startup/mappings.vim
